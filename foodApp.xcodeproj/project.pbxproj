@@ -18,6 +18,7 @@
 		66871C60286B8AD800074A30 /* foodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C5F286B8AD800074A30 /* foodAppUITests.swift */; };
 		66871C62286B8AD800074A30 /* foodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C61286B8AD800074A30 /* foodAppUITestsLaunchTests.swift */; };
 		66871C6F286BFEF800074A30 /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C6E286BFEF700074A30 /* NavButton.swift */; };
+		E304574D286CA88100B373AD /* Screen Shot 2022-06-29 at 10.34.16 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = E304574C286CA88100B373AD /* Screen Shot 2022-06-29 at 10.34.16 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		66871C5F286B8AD800074A30 /* foodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAppUITests.swift; sourceTree = "<group>"; };
 		66871C61286B8AD800074A30 /* foodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66871C6E286BFEF700074A30 /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
+		E304574B286CA84100B373AD /* shakshuka-11.jpg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shakshuka-11.jpg.webp"; sourceTree = "<group>"; };
+		E304574C286CA88100B373AD /* Screen Shot 2022-06-29 at 10.34.16 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-06-29 at 10.34.16 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				66871C3F286B8AD500074A30 /* ViewController.swift */,
 				66871C41286B8AD500074A30 /* Main.storyboard */,
 				66871C6E286BFEF700074A30 /* NavButton.swift */,
+				E304574C286CA88100B373AD /* Screen Shot 2022-06-29 at 10.34.16 AM.png */,
+				E304574B286CA84100B373AD /* shakshuka-11.jpg.webp */,
 				66871C47286B8AD700074A30 /* Assets.xcassets */,
 				66871C49286B8AD700074A30 /* LaunchScreen.storyboard */,
 				66871C4C286B8AD700074A30 /* Info.plist */,
@@ -238,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66871C4B286B8AD700074A30 /* LaunchScreen.storyboard in Resources */,
+				E304574D286CA88100B373AD /* Screen Shot 2022-06-29 at 10.34.16 AM.png in Resources */,
 				66871C48286B8AD700074A30 /* Assets.xcassets in Resources */,
 				66871C43286B8AD500074A30 /* Main.storyboard in Resources */,
 			);

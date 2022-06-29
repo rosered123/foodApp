@@ -17,6 +17,7 @@
 		66871C56286B8AD800074A30 /* foodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C55286B8AD800074A30 /* foodAppTests.swift */; };
 		66871C60286B8AD800074A30 /* foodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C5F286B8AD800074A30 /* foodAppUITests.swift */; };
 		66871C62286B8AD800074A30 /* foodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C61286B8AD800074A30 /* foodAppUITestsLaunchTests.swift */; };
+		66871C6F286BFEF800074A30 /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C6E286BFEF700074A30 /* NavButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		66871C5B286B8AD800074A30 /* foodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66871C5F286B8AD800074A30 /* foodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAppUITests.swift; sourceTree = "<group>"; };
 		66871C61286B8AD800074A30 /* foodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66871C6E286BFEF700074A30 /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				66871C3D286B8AD500074A30 /* SceneDelegate.swift */,
 				66871C3F286B8AD500074A30 /* ViewController.swift */,
 				66871C41286B8AD500074A30 /* Main.storyboard */,
+				66871C6E286BFEF700074A30 /* NavButton.swift */,
 				66871C47286B8AD700074A30 /* Assets.xcassets */,
 				66871C49286B8AD700074A30 /* LaunchScreen.storyboard */,
 				66871C4C286B8AD700074A30 /* Info.plist */,
@@ -265,6 +268,7 @@
 				66871C46286B8AD500074A30 /* foodApp.xcdatamodeld in Sources */,
 				66871C3C286B8AD500074A30 /* AppDelegate.swift in Sources */,
 				66871C3E286B8AD500074A30 /* SceneDelegate.swift in Sources */,
+				66871C6F286BFEF800074A30 /* NavButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

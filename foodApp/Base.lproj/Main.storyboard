@@ -283,7 +283,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9I-hy-U8F">
-                                                                <rect key="frame" x="119" y="120" width="176" height="167"/>
+                                                                <rect key="frame" x="41" y="133" width="333" height="167"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <string key="text">2 tablespoons olive oil 1 medium onion, diced 1 red bell pepper, seeded and diced 4 garlic cloves, finely chopped 1 tablespoon spices (cumin, paprika, chili powder, etc..) 1 28-ounce can whole peeled tomatoes 6 large eggs salt and pepper, to taste..</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -297,6 +297,20 @@
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gH-Dg-fup">
                                                         <rect key="frame" x="0.0" y="900" width="414" height="300"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1X-Pe-S8S">
+                                                                <rect key="frame" x="43" y="-44" width="328" height="576"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <mutableString key="text">1) Heat olive oil in a large sauté pan on medium heat.                                                2) Add the chopped bell pepper and onion and cook for 5 minutes or until the onion becomes translucent.
+3) Add garlic and spices and cook an additional minute.
+4) Pour the can of tomatoes and juice into the pan and break down the tomatoes using a large spoon.                                          5) Season with salt and pepper and bring the sauce to a simmer.
+6) Use your large spoon to make small wells in the sauce and crack the eggs into each well.                                                        7) Cover the pan and cook for 5-8 minutes, or until the eggs are done to your liking.
+8) Garnish with chopped cilantro and parsley.</mutableString>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="UpD-Sa-ptX"/>
                                                         </constraints>
@@ -346,7 +360,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4C-IU-RDx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2182.608695652174" y="77.678571428571431"/>
+            <point key="canvasLocation" x="2260.8695652173915" y="77.678571428571431"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PxO-wb-qmi">
@@ -408,7 +422,7 @@
                                     <imageReference key="image" image="plus" catalog="system" symbolScale="large" renderingMode="template"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="ksy-gm-EtC" kind="show" id="1JN-R3-ccf"/>
+                                    <segue destination="gfb-Qo-K2p" kind="show" id="tTq-HK-HeU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -423,87 +437,144 @@
             </objects>
             <point key="canvasLocation" x="1176.8115942028987" y="890.625"/>
         </scene>
-        <!--Add Own Recipe Table View Controller-->
-        <scene sceneID="clp-nC-nVU">
+        <!--View Controller-->
+        <scene sceneID="dRg-tR-JcJ">
             <objects>
-                <viewController id="ksy-gm-EtC" customClass="addOwnRecipeTableViewController" customModule="foodApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="EDf-vI-RKa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                <viewController id="gfb-Qo-K2p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ao8-o2-EAE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auN-Hr-RLC">
-                                <rect key="frame" x="143" y="782" width="128" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Submit recipe"/>
-                                <connections>
-                                    <action selector="submitButton:" destination="ksy-gm-EtC" eventType="touchUpInside" id="VHf-Pn-TyP"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write your ingredients here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8S-f4-nFK">
-                                <rect key="frame" x="63" y="297" width="211" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Shakshuka" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kh7-g8-RcK">
+                                <rect key="frame" x="136" y="-36" width="143" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yli-yM-2H7">
-                                <rect key="frame" x="56" y="341" width="272" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write the name of your recipe here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEL-bB-V9y">
-                                <rect key="frame" x="71" y="82" width="268" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KdI-Y2-3ls">
-                                <rect key="frame" x="59" y="111" width="269" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type the country's name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIZ-0w-UtS">
-                                <rect key="frame" x="71" y="182" width="194" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwu-dd-hv8">
-                                <rect key="frame" x="59" y="223" width="269" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write the steps of your recipe here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkV-bM-gjH">
-                                <rect key="frame" x="56" y="535" width="268" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JFs-gY-Uth">
-                                <rect key="frame" x="52" y="580" width="272" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EPh-de-t6A">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbK-0q-Wpg">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IUB-D5-boJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4c9-WC-HS5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write the name of your recipe here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqc-Fh-Shn">
+                                                                <rect key="frame" x="41" y="118" width="414" height="20.5"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ovZ-VX-U2b">
+                                                                <rect key="frame" x="41" y="162" width="332" height="34"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write your ingredients here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cca-0Z-egh">
+                                                                <rect key="frame" x="41" y="250" width="414" height="20.5"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="300" id="dld-6X-Rfm"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="doi-W7-5PT">
+                                                        <rect key="frame" x="0.0" y="300" width="414" height="300"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ezA-K6-tK3">
+                                                                <rect key="frame" x="39" y="0.0" width="337" height="208"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write the steps of your recipe here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3V-I1-ybL">
+                                                                <rect key="frame" x="39" y="260" width="414" height="20.5"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="300" id="gst-rA-tPP"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ji-rK-0yz">
+                                                        <rect key="frame" x="0.0" y="600" width="414" height="300"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Vz-rL-RMK">
+                                                                <rect key="frame" x="40" y="8" width="334" height="219"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Io8-tq-bMS">
+                                                                <rect key="frame" x="173" y="269" width="70" height="31"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="gray" title="Submit"/>
+                                                            </button>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="300" id="ATy-kI-cgk"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="12J-uE-0BE">
+                                                        <rect key="frame" x="0.0" y="900" width="414" height="300"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="300" id="k9z-w4-ABr"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="IUB-D5-boJ" firstAttribute="leading" secondItem="vbK-0q-Wpg" secondAttribute="leading" id="11l-3r-jXG"/>
+                                            <constraint firstAttribute="bottom" secondItem="IUB-D5-boJ" secondAttribute="bottom" id="D0T-ka-s9X"/>
+                                            <constraint firstAttribute="trailing" secondItem="IUB-D5-boJ" secondAttribute="trailing" id="iW2-cr-Ggt"/>
+                                            <constraint firstItem="IUB-D5-boJ" firstAttribute="top" secondItem="vbK-0q-Wpg" secondAttribute="top" id="ugL-Uo-WQb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="vbK-0q-Wpg" firstAttribute="width" secondItem="EPh-de-t6A" secondAttribute="width" id="Aot-ct-2mO"/>
+                                    <constraint firstAttribute="bottom" secondItem="vbK-0q-Wpg" secondAttribute="bottom" id="dBd-LH-ERW"/>
+                                    <constraint firstItem="vbK-0q-Wpg" firstAttribute="leading" secondItem="EPh-de-t6A" secondAttribute="leading" id="mOE-aX-0c4"/>
+                                    <constraint firstItem="vbK-0q-Wpg" firstAttribute="top" secondItem="EPh-de-t6A" secondAttribute="top" id="rSJ-pT-HcF"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Znv-Qn-oeR"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="bxE-Jx-TxT"/>
+                            </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="HeQ-do-BMe"/>
+                        <viewLayoutGuide key="safeArea" id="kcM-D1-61y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EPh-de-t6A" firstAttribute="top" secondItem="Kh7-g8-RcK" secondAttribute="bottom" id="CAW-tW-B8L"/>
+                            <constraint firstItem="EPh-de-t6A" firstAttribute="leading" secondItem="ao8-o2-EAE" secondAttribute="leading" id="EXD-Pi-11f"/>
+                            <constraint firstItem="EPh-de-t6A" firstAttribute="leading" secondItem="kcM-D1-61y" secondAttribute="leading" id="RP1-LZ-cd3"/>
+                            <constraint firstItem="EPh-de-t6A" firstAttribute="top" secondItem="ao8-o2-EAE" secondAttribute="top" id="SVh-Eh-7aa"/>
+                            <constraint firstAttribute="bottom" secondItem="EPh-de-t6A" secondAttribute="bottom" id="TW9-vO-8dO"/>
+                            <constraint firstItem="EPh-de-t6A" firstAttribute="top" secondItem="Kh7-g8-RcK" secondAttribute="bottom" id="U0T-4U-qmi"/>
+                            <constraint firstAttribute="trailing" secondItem="EPh-de-t6A" secondAttribute="trailing" id="nga-5j-6a8"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="VZZ-sU-Czi"/>
-                    <connections>
-                        <outlet property="submitButton" destination="auN-Hr-RLC" id="s5v-XV-0FV"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="A2V-tM-bri"/>
+                    <size key="freeformSize" width="414" height="2000"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F7H-pj-Mn4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQ1-nG-oqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2031.8840579710147" y="1153.7946428571429"/>
+            <point key="canvasLocation" x="1892.753623188406" y="1523.4375"/>
         </scene>
     </scenes>
     <resources>

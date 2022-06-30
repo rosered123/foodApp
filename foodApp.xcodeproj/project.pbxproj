@@ -18,6 +18,10 @@
 		66871C60286B8AD800074A30 /* foodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C5F286B8AD800074A30 /* foodAppUITests.swift */; };
 		66871C62286B8AD800074A30 /* foodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C61286B8AD800074A30 /* foodAppUITestsLaunchTests.swift */; };
 		66871C6F286BFEF800074A30 /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66871C6E286BFEF700074A30 /* NavButton.swift */; };
+		66C84F06286E1FF400492A28 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 66C84F05286E1FF400492A28 /* FirebaseAnalytics */; };
+		66C84F08286E1FF400492A28 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 66C84F07286E1FF400492A28 /* FirebaseAuth */; };
+		66C84F0A286E1FF400492A28 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 66C84F09286E1FF400492A28 /* FirebaseDatabase */; };
+		66DDE5BD286E1F0500FD9DA8 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 66DDE5BC286E1F0500FD9DA8 /* GoogleService-Info (2).plist */; };
 		E3045775286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E3045774286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg */; };
 		E3045777286D13DD00B373AD /* IMG_6E20E0C032C5-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E3045776286D13DD00B373AD /* IMG_6E20E0C032C5-1.jpeg */; };
 		E3045779286D141F00B373AD /* IMG_F9E6904BFE8D-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E3045778286D141F00B373AD /* IMG_F9E6904BFE8D-1.jpeg */; };
@@ -57,6 +61,7 @@
 		66871C5F286B8AD800074A30 /* foodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAppUITests.swift; sourceTree = "<group>"; };
 		66871C61286B8AD800074A30 /* foodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66871C6E286BFEF700074A30 /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
+		66DDE5BC286E1F0500FD9DA8 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (2).plist"; path = "../../../Downloads/GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 		E3045774286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_DF31B78DEB81-1.jpeg"; sourceTree = "<group>"; };
 		E3045776286D13DD00B373AD /* IMG_6E20E0C032C5-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_6E20E0C032C5-1.jpeg"; sourceTree = "<group>"; };
 		E3045778286D141F00B373AD /* IMG_F9E6904BFE8D-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_F9E6904BFE8D-1.jpeg"; sourceTree = "<group>"; };
@@ -68,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C84F0A286E1FF400492A28 /* FirebaseDatabase in Frameworks */,
+				66C84F06286E1FF400492A28 /* FirebaseAnalytics in Frameworks */,
+				66C84F08286E1FF400492A28 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				66871C3B286B8AD500074A30 /* AppDelegate.swift */,
+				66DDE5BC286E1F0500FD9DA8 /* GoogleService-Info (2).plist */,
 				66871C3D286B8AD500074A30 /* SceneDelegate.swift */,
 				66871C3F286B8AD500074A30 /* ViewController.swift */,
 				66871C41286B8AD500074A30 /* Main.storyboard */,
@@ -161,6 +170,11 @@
 			dependencies = (
 			);
 			name = foodApp;
+			packageProductDependencies = (
+				66C84F05286E1FF400492A28 /* FirebaseAnalytics */,
+				66C84F07286E1FF400492A28 /* FirebaseAuth */,
+				66C84F09286E1FF400492A28 /* FirebaseDatabase */,
+			);
 			productName = foodApp;
 			productReference = 66871C38286B8AD500074A30 /* foodApp.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 66871C2F286B8AD500074A30;
+			packageReferences = (
+				66C84F04286E1FF400492A28 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 66871C39286B8AD500074A30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,6 +271,7 @@
 				E3045775286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg in Resources */,
 				66871C4B286B8AD700074A30 /* LaunchScreen.storyboard in Resources */,
 				66871C48286B8AD700074A30 /* Assets.xcassets in Resources */,
+				66DDE5BD286E1F0500FD9DA8 /* GoogleService-Info (2).plist in Resources */,
 				66871C43286B8AD500074A30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,6 +640,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66C84F04286E1FF400492A28 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66C84F05286E1FF400492A28 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66C84F04286E1FF400492A28 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		66C84F07286E1FF400492A28 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66C84F04286E1FF400492A28 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		66C84F09286E1FF400492A28 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66C84F04286E1FF400492A28 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		66871C44286B8AD500074A30 /* foodApp.xcdatamodeld */ = {

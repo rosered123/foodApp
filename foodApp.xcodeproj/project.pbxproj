@@ -21,6 +21,7 @@
 		E3045775286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E3045774286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg */; };
 		E3045777286D13DD00B373AD /* IMG_6E20E0C032C5-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E3045776286D13DD00B373AD /* IMG_6E20E0C032C5-1.jpeg */; };
 		E3045779286D141F00B373AD /* IMG_F9E6904BFE8D-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E3045778286D141F00B373AD /* IMG_F9E6904BFE8D-1.jpeg */; };
+		E30457BC286E0D8900B373AD /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30457BB286E0D8800B373AD /* AddRecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E3045774286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_DF31B78DEB81-1.jpeg"; sourceTree = "<group>"; };
 		E3045776286D13DD00B373AD /* IMG_6E20E0C032C5-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_6E20E0C032C5-1.jpeg"; sourceTree = "<group>"; };
 		E3045778286D141F00B373AD /* IMG_F9E6904BFE8D-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_F9E6904BFE8D-1.jpeg"; sourceTree = "<group>"; };
+		E30457BB286E0D8800B373AD /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				66871C3D286B8AD500074A30 /* SceneDelegate.swift */,
 				66871C3F286B8AD500074A30 /* ViewController.swift */,
 				66871C41286B8AD500074A30 /* Main.storyboard */,
+				E30457BB286E0D8800B373AD /* AddRecipeViewController.swift */,
 				E3045778286D141F00B373AD /* IMG_F9E6904BFE8D-1.jpeg */,
 				E3045774286D132500B373AD /* IMG_DF31B78DEB81-1.jpeg */,
 				E3045776286D13DD00B373AD /* IMG_6E20E0C032C5-1.jpeg */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30457BC286E0D8900B373AD /* AddRecipeViewController.swift in Sources */,
 				66871C40286B8AD500074A30 /* ViewController.swift in Sources */,
 				66871C46286B8AD500074A30 /* foodApp.xcdatamodeld in Sources */,
 				66871C3C286B8AD500074A30 /* AppDelegate.swift in Sources */,

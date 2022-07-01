@@ -399,6 +399,7 @@
                                                                 </connections>
                                                             </button>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="Ynv-8G-4yq"/>
                                                         </constraints>
@@ -411,6 +412,7 @@
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="NgX-Tk-xqD"/>
                                                         </constraints>
@@ -428,12 +430,13 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9I-hy-U8F">
                                                                 <rect key="frame" x="41" y="133" width="333" height="167"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <mutableString key="text">2 tablespoons olive oil                                          1 medium onion, diced                                                          1 red bell pepper, seeded and diced                                           4 garlic cloves, finely chopped                                           1 tablespoon spices (cumin, paprika, chili powder, etc..)                                                                       1 28-ounce can whole peeled tomatoes                                                                6 large eggs                                                         salt and pepper, to taste..</mutableString>
+                                                                <string key="text">2 tablespoons olive oil                                          1 medium onion, diced                                                          1 red bell pepper, seeded and diced                                           4 garlic cloves, finely chopped                                           1 tablespoon spices (cumin, paprika, chili powder, etc..)                                                                       1 28-ounce can whole peeled tomatoes                                                                6 large eggs                                                         salt and pepper, to taste..</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="QIZ-Zi-7I8"/>
                                                         </constraints>
@@ -454,6 +457,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="UpD-Sa-ptX"/>
                                                         </constraints>
@@ -472,6 +476,7 @@
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="rvm-rQ-f7p"/>
                                                         </constraints>
@@ -817,6 +822,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="dld-6X-Rfm"/>
                                                         </constraints>
@@ -844,6 +850,7 @@
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="gst-rA-tPP"/>
                                                         </constraints>
@@ -865,6 +872,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="ATy-kI-cgk"/>
                                                         </constraints>
@@ -909,6 +917,7 @@
                                                                 </connections>
                                                             </button>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="k9z-w4-ABr"/>
                                                         </constraints>
@@ -1009,6 +1018,7 @@
                                                                 </connections>
                                                             </button>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="hcK-f4-tTC"/>
                                                         </constraints>
@@ -1017,10 +1027,11 @@
                                                         <rect key="frame" x="0.0" y="300" width="417" height="300"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Butter-Chicken-2-3" translatesAutoresizingMaskIntoConstraints="NO" id="6W2-Dd-BBK">
-                                                                <rect key="frame" x="-20" y="-66" width="457" height="323"/>
+                                                                <rect key="frame" x="-9" y="-58" width="437" height="358"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="WUf-Ob-uvD"/>
                                                         </constraints>
@@ -1038,12 +1049,13 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icg-uU-zdN">
                                                                 <rect key="frame" x="50" y="40" width="289" height="244"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <mutableString key="text">28 oz (800g) boneless and skinless chicken thighs or breasts cut into bite-sized pieces                                 1/2 cup plain yogurt                                   1 1/2 tbsp minced garlic                                        1 tbsp minced ginger                                        2 tsp garam masala                                                           1 tsp turmeric                                                                                         1 tsp ground cumin                                                                                        1 tsp red chili powder                                                                                        1 tsp of salt</mutableString>
+                                                                <string key="text">28 oz (800g) boneless and skinless chicken thighs or breasts cut into bite-sized pieces                                 1/2 cup plain yogurt                                   1 1/2 tbsp minced garlic                                        1 tbsp minced ginger                                        2 tsp garam masala                                                           1 tsp turmeric                                                                                         1 tsp ground cumin                                                                                        1 tsp red chili powder                                                                                        1 tsp of salt</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="WcQ-gd-bpE"/>
                                                         </constraints>
@@ -1052,30 +1064,54 @@
                                                         <rect key="frame" x="0.0" y="900" width="417" height="300"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="42" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FB-x7-MHQ">
-                                                                <rect key="frame" x="43" y="8" width="328" height="815"/>
+                                                                <rect key="frame" x="44" y="-125" width="328" height="808"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <mutableString key="text">1) In a bowl, combine chicken with all of the ingredients for the chicken marinade; let marinate for 30 minutes to an hour (or overnight if time allows)                                               2) Heat oil in a large skillet or pot over medium-sized heat. When sizzling, add chicken pieces in batches of two or three, making sure not to crowd the pan. Fry until browned for only 3 minutes on each side. Set aside and keep warm. (You will finish cooking the chicken in the sauce).
 3) Heat butter of ghee in the same pan. Fry the onions until they start to sweat (about 6 minutes) while scraping up any browne bits stuck on teh bottom of the pan. 
 4) Add garlic and ginger and saute for 1 minute until fragrant, then add ground coriander, cumin and garam masala. Let cook for about 20 seconds until fragrant, while stirring ocassionally.                                         5) Add crushed tomatoes, chili powder and salt. Let simmer for about 10-15 minute, stirring ocasionally until sauce thickens and becomes a dep brown red color. 
-6) Remove from heat, scoop mixture into a blender and blend until smooth. You may nee to add a couple tablespoons fo water to help it blend (up to 1/4 cup). Work in batches depending on teh size of your blender.                                                    7)Pour the pureed sauce back into the pan. Stir the cream, sugar and crushed kasoori methi through the sauce. Add the chicken with juices back into the pan and cook for an additional 8-10 minutes until chicken is cooked through and the sauce is thick and bubbling. 
-8) Garnish with chopped cilantro and serve with fresh, hot garlic butter naan!</mutableString>
+6) Remove from heat, scoop mixture into a blender and blend until smooth. You may nee to add a couple tablespoons fo water to help it blend (up to 1/4 cup).                                             </mutableString>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="EUx-bc-QIF"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-kb-ev0">
                                                         <rect key="frame" x="0.0" y="1200" width="417" height="300"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csY-x4-ZoG">
+                                                                <rect key="frame" x="41" y="-8" width="345" height="300"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <mutableString key="text">4) Add garlic and ginger and saute for 1 minute until fragrant, then add ground coriander, cumin and garam masala. Let cook for about 20 seconds until fragrant, while stirring ocassionally.                                         5) Add crushed tomatoes, chili powder and salt. Let simmer for about 10-15 minute, stirring ocasionally until sauce thickens and becomes a dep brown red color. 
+6) Remove from heat, scoop mixture into a blender and blend until smooth. You may nee to add a couple tablespoons fo water to help it blend (up to 1/4 cup). Work in batches depending on the size of your blender.       </mutableString>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="XTB-90-5n8"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1q-jz-gwd">
                                                         <rect key="frame" x="0.0" y="1500" width="417" height="300"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58z-r2-eBO">
+                                                                <rect key="frame" x="41" y="-54" width="349" height="259"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <string key="text">7)Pour the pureed sauce back into the pan. Stir the cream, sugar and crushed kasoori methi through the sauce. Add the chicken with juices back into the pan and cook for an additional 8-10 minutes until chicken is cooked through and the sauce is thick and bubbling. 
+8) Garnish with chopped cilantro and serve with fresh, hot garlic butter naan!</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="1Sz-5r-TTP"/>
                                                         </constraints>
@@ -1179,6 +1215,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.66193633316960698" green="0.88627450980392153" blue="0.73043550000029467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="rb2-wD-jBt"/>
                                                         </constraints>
@@ -1187,10 +1224,11 @@
                                                         <rect key="frame" x="0.0" y="300" width="414" height="300"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brownies-22" translatesAutoresizingMaskIntoConstraints="NO" id="jVS-FC-H5A">
-                                                                <rect key="frame" x="16" y="-55" width="382" height="468"/>
+                                                                <rect key="frame" x="0.0" y="-55" width="414" height="468"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="NO1-1i-wGD"/>
                                                         </constraints>
@@ -1208,12 +1246,13 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4LZ-eS-u9F">
                                                                 <rect key="frame" x="47" y="212" width="343" height="167"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <mutableString key="text">1/2 cup butter                                                        1 cup white sugar                                                                2 eggs                                                                         1 tsp vanilla extract                                                                1/3 cup unsweetened cocoa powder                                                                                          1/2 cup all-purpose flour                                                                        1/4 tsp salt                                                                                  1/4 tsp baking powder</mutableString>
+                                                                <string key="text">1/2 cup butter                                                        1 cup white sugar                                                                2 eggs                                                                         1 tsp vanilla extract                                                                1/3 cup unsweetened cocoa powder                                                                                          1/2 cup all-purpose flour                                                                        1/4 tsp salt                                                                                  1/4 tsp baking powder</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="FuX-Ym-pys"/>
                                                         </constraints>
@@ -1232,6 +1271,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="epi-DY-uAL"/>
                                                         </constraints>
@@ -1250,6 +1290,7 @@
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.6619363332" green="0.8862745098" blue="0.73043550000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="Yrj-hU-VWB"/>
                                                         </constraints>

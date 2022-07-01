@@ -793,6 +793,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqA-L2-5QR">
+                                <rect key="frame" x="0.0" y="21" width="122" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.54117647059999996" green="0.64705882349999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="⬅ Go Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="9nX-TT-ezV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ygc-ev-4Sl"/>
                         <color key="backgroundColor" red="1" green="0.86666666670000003" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1051,7 +1061,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxY-XK-p3e">
-                                                                <rect key="frame" x="24" y="25" width="143" height="72"/>
+                                                                <rect key="frame" x="5" y="8" width="122" height="72"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <color key="tintColor" red="0.54117647059999996" green="0.64705882349999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <state key="normal" title="Button"/>
@@ -1059,6 +1069,13 @@
                                                                 <connections>
                                                                     <segue destination="BYZ-38-t0r" kind="show" id="Xel-8c-OdB"/>
                                                                 </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHJ-3l-RJd">
+                                                                <rect key="frame" x="25" y="28" width="122" height="72"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <color key="tintColor" red="0.54117647059999996" green="0.64705882349999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="⬅ Go Back"/>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.78823529410000004" green="0.8862745098" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1384,7 +1401,7 @@
         <segue reference="mJx-ld-EbT"/>
         <segue reference="ES0-tw-UbU"/>
         <segue reference="KAV-68-McZ"/>
-        <segue reference="Omj-oL-nDC"/>
+        <segue reference="9nX-TT-ezV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="588a6507d06f6719692a2d15" width="512" height="512"/>
